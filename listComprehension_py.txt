@@ -1,0 +1,14 @@
+Syntax of List Comprehension: 
+-->   newList = [expression(element) for element in oldList if condition]
+
+  element - Variable refers to each value taken from the iterable
+  iterable - iterate ( list,tuple or string)
+  condition - decide whether or not an element
+Example of List Comprehension in python:
+here is n example to find the Square of numbers in python using list Comprehension
+
+numbers = [1,2,3,4,5]
+squared = [x ** 2 for x in numbers]
+print(squared)
+
+o/p = [1,4,9,16,25]
