@@ -1,4 +1,4 @@
-from sumOfAnArray import *
+from array import *
 
 def sumOfArray(array_list):                         # function definition
     sum = 0
